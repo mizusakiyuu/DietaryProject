@@ -21,45 +21,60 @@
         android:id="@+id/textView2"
         android:layout_width="wrap_content"
         android:layout_height="28dp"
+        android:layout_marginBottom="11dp"
+        android:layout_marginLeft="88dp"
+        android:layout_marginStart="88dp"
         android:text="Lose up to 10lbs in 3 Days"
         android:textSize="18sp"
-        tools:layout_editor_absoluteX="88dp"
-        tools:layout_editor_absoluteY="260dp" />
+        app:layout_constraintBottom_toTopOf="@+id/editText3"
+        app:layout_constraintStart_toStartOf="parent" />
 
     <Button
         android:id="@+id/button"
         android:layout_width="119dp"
         android:layout_height="39dp"
+        android:layout_marginBottom="48dp"
+        android:layout_marginLeft="133dp"
+        android:layout_marginStart="133dp"
         android:text="Login"
-        tools:layout_editor_absoluteX="133dp"
-        tools:layout_editor_absoluteY="414dp" />
+        app:layout_constraintBottom_toTopOf="@+id/button2"
+        app:layout_constraintStart_toStartOf="parent" />
 
     <EditText
         android:id="@+id/editText3"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:layout_marginBottom="12dp"
+        android:layout_marginLeft="85dp"
+        android:layout_marginStart="85dp"
         android:ems="10"
         android:hint="Username"
         android:inputType="textPersonName"
-        tools:layout_editor_absoluteX="85dp"
-        tools:layout_editor_absoluteY="299dp" />
+        app:layout_constraintBottom_toTopOf="@+id/editText4"
+        app:layout_constraintStart_toStartOf="parent" />
 
     <EditText
         android:id="@+id/editText4"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:layout_marginBottom="11dp"
+        android:layout_marginLeft="84dp"
+        android:layout_marginStart="84dp"
         android:ems="10"
         android:hint="Password"
         android:inputType="textPassword"
-        tools:layout_editor_absoluteX="84dp"
-        tools:layout_editor_absoluteY="357dp" />
+        app:layout_constraintBottom_toTopOf="@+id/button"
+        app:layout_constraintStart_toStartOf="parent" />
 
     <Button
         android:id="@+id/button2"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:layout_marginBottom="18dp"
+        android:layout_marginLeft="147dp"
+        android:layout_marginStart="147dp"
         android:text="Register"
-        tools:layout_editor_absoluteX="147dp"
-        tools:layout_editor_absoluteY="501dp" />
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
 
 </android.support.constraint.ConstraintLayout>
