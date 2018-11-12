@@ -1,6 +1,66 @@
 <?xml version="1.0" encoding="utf-8"?>
 <android.support.constraint.ConstraintLayout
-    xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
     android:layout_height="match_parent">
 
+    <TextView
+        android:id="@+id/textView12"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="116dp"
+        android:layout_marginStart="116dp"
+        android:layout_marginTop="36dp"
+        android:text="Day One"
+        android:textSize="40sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/textView13"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Choose your Lunch"
+        android:textSize="24sp"
+        tools:layout_editor_absoluteX="91dp"
+        tools:layout_editor_absoluteY="116dp" />
+
+    <Spinner
+        android:id="@+id/spinner13"
+        tools:layout_editor_absoluteX="64dp"
+        tools:layout_editor_absoluteY="177dp"
+        android:layout_width="257dp"
+        android:layout_height="33dp" />
+
+    <Spinner
+        android:id="@+id/spinner14"
+        tools:layout_editor_absoluteX="64dp"
+        tools:layout_editor_absoluteY="228dp"
+        android:layout_width="256dp"
+        android:layout_height="30dp" />
+
+    <Spinner
+        android:id="@+id/spinner15"
+        tools:layout_editor_absoluteX="64dp"
+        tools:layout_editor_absoluteY="278dp"
+        android:layout_width="258dp"
+        android:layout_height="30dp" />
+
+    <Button
+        android:id="@+id/button13"
+        tools:layout_editor_absoluteX="30dp"
+        tools:layout_editor_absoluteY="482dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Back" />
+
+    <Button
+        android:id="@+id/button14"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Next"
+        tools:layout_editor_absoluteX="265dp"
+        tools:layout_editor_absoluteY="482dp" />
 </android.support.constraint.ConstraintLayout>
