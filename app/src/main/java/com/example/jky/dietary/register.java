@@ -5,15 +5,14 @@ import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.view.View;
 
-public class MainActivity extends AppCompatActivity {
+public class register extends AppCompatActivity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_main);
+        setContentView(R.layout.register_page);
     }
-    public void startReg(View v){
-        startActivity(new Intent(MainActivity.this, register.class));
+    public void startCreate(View v) {
+        startActivity(new Intent( register.this, MainActivity.class));
     }
-    }
-
+}
