@@ -15,4 +15,7 @@ public class register extends AppCompatActivity {
     public void startCreate(View v) {
         startActivity(new Intent( register.this, MainActivity.class));
     }
+    public void startBack(View v){
+        startActivity(new Intent( register.this, MainActivity.class));
+    }
 }

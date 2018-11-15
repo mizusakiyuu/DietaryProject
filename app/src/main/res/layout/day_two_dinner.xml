@@ -10,11 +10,14 @@
         android:id="@+id/textView18"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:layout_marginEnd="118dp"
         android:layout_marginLeft="112dp"
+        android:layout_marginRight="118dp"
         android:layout_marginStart="112dp"
         android:layout_marginTop="40dp"
         android:text="Day Two"
         android:textSize="40sp"
+        app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 
@@ -22,45 +25,77 @@
         android:id="@+id/textView19"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:layout_marginEnd="89dp"
+        android:layout_marginLeft="89dp"
+        android:layout_marginRight="89dp"
+        android:layout_marginStart="89dp"
+        android:layout_marginTop="23dp"
         android:text="Choose your Dinner"
         android:textSize="24sp"
-        tools:layout_editor_absoluteX="89dp"
-        tools:layout_editor_absoluteY="118dp" />
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView18" />
 
     <Spinner
         android:id="@+id/spinner22"
-        tools:layout_editor_absoluteX="64dp"
-        tools:layout_editor_absoluteY="177dp"
         android:layout_width="257dp"
-        android:layout_height="33dp" />
+        android:layout_height="33dp"
+        android:layout_marginEnd="63dp"
+        android:layout_marginLeft="64dp"
+        android:layout_marginRight="63dp"
+        android:layout_marginStart="64dp"
+        android:layout_marginTop="27dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView19" />
 
     <Spinner
         android:id="@+id/spinner23"
-        tools:layout_editor_absoluteX="64dp"
-        tools:layout_editor_absoluteY="228dp"
         android:layout_width="256dp"
-        android:layout_height="30dp" />
+        android:layout_height="30dp"
+        android:layout_marginEnd="64dp"
+        android:layout_marginLeft="64dp"
+        android:layout_marginRight="64dp"
+        android:layout_marginStart="64dp"
+        android:layout_marginTop="18dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/spinner22" />
 
     <Spinner
         android:id="@+id/spinner24"
-        tools:layout_editor_absoluteX="64dp"
-        tools:layout_editor_absoluteY="278dp"
         android:layout_width="258dp"
-        android:layout_height="30dp" />
+        android:layout_height="30dp"
+        android:layout_marginEnd="62dp"
+        android:layout_marginLeft="64dp"
+        android:layout_marginRight="62dp"
+        android:layout_marginStart="64dp"
+        android:layout_marginTop="20dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/spinner23" />
 
     <Button
         android:id="@+id/button19"
-        tools:layout_editor_absoluteX="30dp"
-        tools:layout_editor_absoluteY="482dp"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Back" />
+        android:layout_marginBottom="37dp"
+        android:layout_marginLeft="30dp"
+        android:layout_marginStart="30dp"
+        android:onClick="startBack6"
+        android:text="Back"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
 
     <Button
         android:id="@+id/button20"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:layout_marginBottom="37dp"
+        android:layout_marginEnd="43dp"
+        android:layout_marginRight="43dp"
+        android:onClick="startNext4"
         android:text="Next"
-        tools:layout_editor_absoluteX="253dp"
-        tools:layout_editor_absoluteY="482dp" />
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent" />
 </android.support.constraint.ConstraintLayout>
