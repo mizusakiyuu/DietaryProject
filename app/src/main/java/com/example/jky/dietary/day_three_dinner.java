@@ -16,6 +16,6 @@ public class day_three_dinner extends AppCompatActivity {
         startActivity(new Intent( day_three_dinner.this, day_three_lunch.class));
     }
     public void startNext6(View v){
-        startActivity(new Intent( day_three_dinner.this, list.class));
+        startActivity(new Intent( day_three_dinner.this, day_three_breakfast.class));
     }
 }

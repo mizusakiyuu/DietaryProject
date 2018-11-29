@@ -1,0 +1,42 @@
+{
+  "project_info": {
+    "project_number": "715031525006",
+    "firebase_url": "https://project-d9f2b.firebaseio.com",
+    "project_id": "project-d9f2b",
+    "storage_bucket": "project-d9f2b.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:715031525006:android:3631317d0309dd49",
+        "android_client_info": {
+          "package_name": "com.example.jky.dietary"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "715031525006-mq1tt3st6fbm8mc6av0gv0hdp51i26t4.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyD5a-BubDxBrpZ8NC4ykVzAthWjLz2xm8E"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

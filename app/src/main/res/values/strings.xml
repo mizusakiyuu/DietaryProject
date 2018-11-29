@@ -1,3 +1,30 @@
 <resources>
     <string name="app_name">Dietary</string>
+
+    <array name="foods">
+        <item>Apple</item>
+        <item>Adobo</item>
+        <item>Tinola</item>
+        <item>Caldereta</item>
+        <item>Sisig</item>
+        <item>Itlog</item>
+        <item>Hotdog</item>
+        <item>Nova</item>
+    </array>.
+
+    <array name="day">
+        <item>Day One</item>
+        <item>Day Two</item>
+        <item>Day Three</item>
+
+    </array>
+    <array name="meal">
+        <item>Breakfast Meal</item>
+        <item>Lunch Meal</item>
+        <item>Snacks Meal</item>
+        <item>Dinner Meal</item>
+
+    </array>
+
+
 </resources>
