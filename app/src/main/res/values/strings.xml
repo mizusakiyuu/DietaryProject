@@ -2,14 +2,28 @@
     <string name="app_name">Dietary</string>
 
     <array name="foods">
-        <item>Apple</item>
-        <item>Adobo</item>
-        <item>Tinola</item>
-        <item>Caldereta</item>
-        <item>Sisig</item>
-        <item>Itlog</item>
-        <item>Hotdog</item>
-        <item>Nova</item>
+        <item>1/2 Grapefruit</item>
+        <item>1 Slice of Toast</item>
+        <item>2 Tablespoons of Peanut Butter</item>
+        <item>1 cup Coffee or Tea (with caffeine)</item>
+        <item>1/2 Cup of Tuna</item>
+        <item>3 ounces of any type of meat</item>
+        <item>1 cup of green beans</item>
+        <item>1/2 banana</item>
+        <item>1 small apple</item>
+        <item>1 cup of vanilla ice cream</item>
+        <item>1 egg</item>
+        <item>1 cup of cottage cheese</item>
+        <item>1 hard boiled egg</item>
+        <item>5 saltine crackers</item>
+        <item>2 hot dogs (without bun)</item>
+        <item>1 cup of broccoli</item>
+        <item>1/2 cup of carrots</item>
+        <item>1/2 banana</item>
+        <item>1/2 cup of vanilla ice cream</item>
+        <item>5 saltine crackers</item>
+        <item>1 slice of cheddar cheese</item>
+
     </array>.
 
     <array name="day">
